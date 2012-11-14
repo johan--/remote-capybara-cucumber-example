@@ -1,7 +1,8 @@
 Feature: Using Google
 
 Scenario: Searching for a term
-
-Given I am on google.com
-When I enter "pizza"
-Then I should see results
+  Given I am on the Google homepage 
+  When I search for "pizza perfect"
+  And I pause for 2 seconds
+  Then I should see results 
+  And I should see "Pizza"
