@@ -1,6 +1,6 @@
 .DS_Store
 *.lock
-
+chromedriver.log
 log/*.log
 tmp/*
 *.swp
