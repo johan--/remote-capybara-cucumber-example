@@ -1,5 +1,6 @@
 Feature: Using Google
 
+@javascript
 Scenario: Searching for a term
   Given I am on the Google homepage 
   When I search for "pizza perfect"
